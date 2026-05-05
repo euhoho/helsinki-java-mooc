@@ -11,6 +11,6 @@ public class Squared {
 
         System.out.println(square);
 
-        scanner.clse();
+        scanner.close();
     }
 }
