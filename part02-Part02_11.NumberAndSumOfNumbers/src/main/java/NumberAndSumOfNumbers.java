@@ -6,5 +6,22 @@ public class NumberAndSumOfNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        int NumberOfNumbers = 0;
+        int SumOfTheNumbers = 0;
+
+        while (true) {
+            System.out.println("Give a number:");
+            int number = Integer.parseInt(scanner.nextLine());
+
+            if (number == 0) {
+                System.out.println("Number of numbers: " + NumberOfNumbers);
+                System.out.println("Sum of the numbers: " + SumOfTheNumbers);
+                break;
+            }
+
+            NumberOfNumbers = NumberOfNumbers + 1;
+            SumOfTheNumbers = SumOfTheNumbers + number;
+        }
+        scanner.close();
     }
 }
