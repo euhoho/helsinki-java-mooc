@@ -6,6 +6,14 @@ public class FromWhereToWhere {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Write your program here
+        System.out.print("Where to? ");
+        int maxnumber = Integer.parseInt(scanner.nextLine());
+        System.out.print("Where from? ");
+        int minnumber = Integer.parseInt(scanner.nextLine());
+
+        for (int i=minnumber; i<=maxnumber; i++) {
+            System.out.println(i);
+        }
+        scanner.close();
     }
 }
