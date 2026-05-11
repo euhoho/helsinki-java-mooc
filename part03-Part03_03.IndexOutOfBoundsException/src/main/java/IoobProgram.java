@@ -1,4 +1,4 @@
-
+ 
 import java.util.ArrayList;
 
 public class IoobProgram {
@@ -15,7 +15,7 @@ public class IoobProgram {
         lines.add("up with his quantum theory while studying...");
 
         for (String line : lines) {
-            System.out.println(line);
+            System.out.println(lines.get(6));
         }
 
     }
